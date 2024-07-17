@@ -6,7 +6,11 @@
     }
 }
 
+/*responsive for mobile*/
+
 @media screen and (max-width: 576px) {
+
+    /*posizioniamo centralmente tutti gli elementi della pagina*/
     *{
         margin: 0 auto;
     }
@@ -19,7 +23,8 @@
         display: flex;
         flex-direction: column;
     }
-
+    
+    /*sistemiamo lo sfondo della sezione why-us*/
     .steps {
         margin: auto;
     }
@@ -30,14 +35,16 @@
 
     .why-us {
         margin: auto;
-        background-color: black;
+        background-color: #222222;
         padding: 30px;
     }
+
+    /*sistemiamo i margini e le distanze tra gli elementi*/
 
     .why-us .col-left {
         margin-bottom: 20px;
     }
-    
+
     .col {
         padding-left: 0;
         padding-right: 0;
