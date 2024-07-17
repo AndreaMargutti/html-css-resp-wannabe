@@ -5,3 +5,41 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 576px) {
+    *{
+        margin: 0 auto;
+    }
+
+    .row {
+        display: block;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .steps {
+        margin: auto;
+    }
+
+    .lessons {
+        padding: 30px;
+    }
+
+    .why-us {
+        margin: auto;
+        background-color: black;
+        padding: 30px;
+    }
+
+    .why-us .col-left {
+        margin-bottom: 20px;
+    }
+    
+    .col {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
